@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  linux:
+    image: docgen:latest
+    stdin_open: true
+    working_dir: /root/docGen
+    volumes:
+      - $PWD/documents:/root/docGen/documents
+      - $PWD/output:/root/docGen/output
+      - $PWD/ops/scripts:/root/docGen/scripts
+      - $PWD/ops/templates:/root/docGen/templates
+  node:
+    image: node:9.5.0
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=${NODE_ENV}
+      - SHELL=bash
+    command: "sleep infinity"
+
+networks:
+  document-generation:
