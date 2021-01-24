@@ -35,7 +35,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN wget https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex \
       && mv eisvogel.tex /root/docGen/templates/eisvogel.latex
-RUN cp /root/docGen/templates/* /usr/share/pandoc/data/templates
+RUN cp -r /root/docGen/templates/*.latex /usr/share/pandoc/data/templates/
+
 
 WORKDIR /root/docGen
 

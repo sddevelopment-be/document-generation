@@ -2,7 +2,8 @@
 Dockerized markdown to document generator. 
 I got tired of writing technical documents in word and confluence.
 So I tried to make a flat text to fancy document conversion stack.  
-  
+
+Example generated documents can be found here: [./examples/](./examples/)
 Details and tech stack in the description.
 
 ## Purpose
@@ -34,24 +35,37 @@ sh build_docker.sh <VERSION>
 ```
 ### Run conversion
 
-Start the docker-compose containers and execute the commands:
+Start the docker-compose containers and execute the commands showed below.
+You can edit the scripts in [ops/scripts/](./ops/scripts/), or add your own.
+
 
 ```bash
 docker-compose -f ./ops/docker-compose.yml up -d --remove-orphans
 docker-compose -f ./ops/docker-compose.yml exec linux sh /root/docGen/scripts/doc_runner.sh documents/document_sample.md document sdd-base
 ```
 
-Alternativly, you can use the `convert_documents.sh` script included in this repository's root.
+Alternativly, you can use the `convert_documents.sh` script included in this repository's root
+to run all the examples. The result of these can be found in your local **./output** directory.
 
 ## Tech Stack
 
-OS: Ubuntu
-Doc generation stack: pandoc, LaTeX (texLive) + shell script that contains the pandoc command
-Documentation content file: Markdown directory + YAML meta-data file
-Editor: NeoVim with some fancy plugins (unneeded, but I was playing with it recently)
+**Generator**
+* OS: Ubuntu
+* Doc generation stack: pandoc, LaTeX (texLive) + shell script that contains the pandoc command
+* Documentation content file: Markdown directory + YAML meta-data file
+* FOSS templates and libraries
+* Docker and docker-compose
+
+**Text Editors**
+* Editor: [NeoVim](https://neovim.io/) with some fancy plugins (unneeded, but I was playing with it recently)
 
 ## Acknowledgements
 
+* Ubuntu dockerfile [github](https://github.com/dockerfile/ubuntu)
+* Eisvogel Pandoc template [github](https://github.com/Wandmalfarbe/pandoc-latex-template)
+* reveal.js [github](https://github.com/hakimel/reveal.js)
+* pandoc [github](https://github.com/jgm/pandoc)
+* TexLive [website](https://tug.org/texlive/)
 ## Change History 
 
 ### Showcase videos

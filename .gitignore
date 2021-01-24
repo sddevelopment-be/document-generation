@@ -2,6 +2,8 @@
 # contains all sorts of unfinished changes
 private/
 
+scripts/reveal.js/
+
 # build folder
 output/*.docx
 output/*.pdf
