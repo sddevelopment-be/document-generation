@@ -17,11 +17,17 @@ jobs:
       - name: Start Conversion
         run: |
           echo "<(^v^)> - { Using scripts from /root/docGen/scripts/})"
-          docker-compose -f ./ops/docker-compose.yml exec -T linux sh /root/docGen/scripts/doc_runner.sh documents/document_sample.md document sdd-base
-          docker-compose -f ./ops/docker-compose.yml exec -T linux sh /root/docGen/scripts/slide_runner.sh documents/slidedeck/docGen-slidedeck.md docgen_slides eisvogel
-          docker-compose -f ./ops/docker-compose.yml exec -T linux sh /root/docGen/scripts/slide_web_runner.sh documents/slidedeck/docGen-slidedeck.md docgen_slides markdown_github
+          sh ./ops/scripts/convert_documents.sh
       - name: Upload Examples
         uses: actions/upload-artifact@master
         with:
           name: output
           path: output
+      - name: "Copy output to examples"
+        run: |
+          ./ops/scripts/copy_examples.sh
+      - name: "Commit examples"
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'GITOPS: add examples after build'
+          add: './examples'

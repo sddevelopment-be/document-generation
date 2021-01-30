@@ -1,10 +1,17 @@
 # SD Development Document Generator
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END --> 
+
 Dockerized markdown to document generator. 
 I got tired of writing technical documents in word and confluence.
 So I tried to make a flat text to fancy document conversion stack.  
 
 Example generated documents can be found here: [./examples/](./examples/)
 Details and tech stack in the description.
+
+**Quick links:** |  [CONTRIBUTING](./docs/CONTRIBUTING.md) | [CHANGELOG](./docs/CHANGELOG.md) |
 
 ## Releases
 
@@ -76,7 +83,12 @@ to run all the examples. The result of these can be found in your local **./outp
 * reveal.js [github](https://github.com/hakimel/reveal.js)
 * pandoc [github](https://github.com/jgm/pandoc)
 * TexLive [website](https://tug.org/texlive/)
+* Prosegrinder Pandoc Templates [github](https://github.com/prosegrinder/pandoc-templates)
+
 ## Change History 
+
+The full changelog can be found in: [./docs/CHANGELOG.md](./docs/CHANGELOG.md).
 
 ### Showcase videos
 * [Initial version](https://www.youtube.com/watch?v=N_aVZHArSS0)
+* [First update](https://www.youtube.com/watch?v=oyBFv_9QFbk)
