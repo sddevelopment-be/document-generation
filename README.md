@@ -6,6 +6,16 @@ So I tried to make a flat text to fancy document conversion stack.
 Example generated documents can be found here: [./examples/](./examples/)
 Details and tech stack in the description.
 
+## Releases
+
+### Docker Images
+Docker images are automatically pushed to DockerHub.
+Check out the latest version here: [DockerHub Releases](https://hub.docker.com/repository/docker/sddevelopmentbe/docgen/general)
+
+### Sources and Examples
+The sources and examples used to create and test the container Releases
+can be found on our [github releases page](Releases are powered by tagging specific points of history in a repository. )
+
 ## Purpose
 
 As software development professionals, we are often asked to write down documentation to detail what we did or how we did it. Most developers I know dislike using tools for "normal people" to  achieve this goal. We prefer to write our specs and documentation close to our code (same editor, or using terminal editors).

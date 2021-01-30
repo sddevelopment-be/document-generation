@@ -2,8 +2,6 @@ name: Build and publish Docker image
 on:
   release:
     types: [published]
-  push:
-    branches: main
 # on:
 #   push:
 #     branches:
@@ -15,7 +13,7 @@ jobs:
     steps:
       - name: Get release tag
         id: tag_name
-        run: echo ::set-output name=SOURCE_TAG::${GITHUB_REF/refs\/heads\//}
+        run: echo ::set-output name=SOURCE_TAG::${GITHUB_REF/refs\/tags\//}
       - name: Check out the repo
         uses: actions/checkout@v2
       - name: Login to Docker Hub
