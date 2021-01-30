@@ -22,6 +22,10 @@ The markdown does not include any special formatting, apart from the titles.
 ## Document Structure
 
 Add some information about the document structure here.
+This is a very important document, and you should read it super carefully.
+
+---
+
 
 # Project Description
 We are building an awesome thing for our customer.
