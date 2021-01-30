@@ -1,10 +1,9 @@
 # SD Development Document Generator
 
+![Build and publish Docker image](https://github.com/sddevelopment-be/document-generation/workflows/Build%20and%20publish%20Docker%20image/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/sddevelopmentbe/docgen) ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/sddevelopmentbe/docgen)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
-![Build and publish Docker image](https://github.com/sddevelopment-be/document-generation/workflows/Build%20and%20publish%20Docker%20image/badge.svg)
-
 
 Dockerized markdown to document generator. 
 I got tired of writing technical documents in word and confluence.
@@ -13,7 +12,7 @@ So I tried to make a flat text to fancy document conversion stack.
 Example generated documents can be found here: [./examples/](./examples/)
 Details and tech stack in the description.
 
-**Quick links:** |  [CONTRIBUTING](./docs/CONTRIBUTING.md) | [CHANGELOG](./docs/CHANGELOG.md) |
+**Quick links:** |  [CONTRIBUTING](./CONTRIBUTING.md) | [CHANGELOG](./CHANGELOG.md) | [DCO](./DCO.md)
 
 ## Releases
 
@@ -87,6 +86,16 @@ to run all the examples. The result of these can be found in your local **./outp
 * TexLive [website](https://tug.org/texlive/)
 * Prosegrinder Pandoc Templates [github](https://github.com/prosegrinder/pandoc-templates)
 
+## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome
 ## Change History 
 
 The full changelog can be found in: [./docs/CHANGELOG.md](./docs/CHANGELOG.md).

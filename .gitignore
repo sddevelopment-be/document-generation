@@ -4,6 +4,7 @@ private/
 
 *.zip
 *tar.xz
+docs/images/*.drawio
 
 scripts/reveal.js/
 
