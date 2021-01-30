@@ -9,10 +9,10 @@ Dockerized markdown to document generator.
 I got tired of writing technical documents in word and confluence.
 So I tried to make a flat text to fancy document conversion stack.  
 
-Example generated documents can be found here: [./examples/](./examples/)
+Example generated documents can be found here: [./examples/](../examples/)
 Details and tech stack in the description.
 
-**Quick links:** |  [CONTRIBUTING](./CONTRIBUTING.md) | [CHANGELOG](./CHANGELOG.md) | [DCO](./DCO.md)
+**Quick links:**   [CONTRIBUTING](./CONTRIBUTING.md) \\ [CHANGELOG](./CHANGELOG.md) \\ [DCO](./DCO.md)
 
 ## Releases
 
@@ -32,15 +32,10 @@ This video is shareable set-up using open-source software, libraries, and templa
 
 ### Repository structure
 
-* [**documents:**](./documents) Contains some sample documents and images
-* [**ops:**](./ops) Dockerfiles and scripts to run the Stack
-* [**templates:**](./ops/templates) Collection of template files 
-* [**examples:**](./examples) A set of showcase output files 
-
-### Next steps?
-
-* Add [reveal.js](https://github.com/hakimel/reveal.js/) interactivegration to also generate interactive slidedecks
-* Add [structurizr](https://structurizr.com/) integration to draw even nicer diagrams in technical documentation 
+* [**documents:**](../documents) Contains some sample documents and images
+* [**ops:**](../ops) Dockerfiles and scripts to run the Stack
+* [**templates:**](../ops/templates) Collection of template files 
+* [**examples:**](../examples) A set of showcase output files 
 
 ## Usage
 
@@ -54,7 +49,7 @@ sh build_docker.sh <VERSION>
 ### Run conversion
 
 Start the docker-compose containers and execute the commands showed below.
-You can edit the scripts in [ops/scripts/](./ops/scripts/), or add your own.
+You can edit the scripts in [ops/scripts/](../ops/scripts/), or add your own.
 
 
 ```bash
@@ -96,6 +91,7 @@ to run all the examples. The result of these can be found in your local **./outp
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome
+
 ## Change History 
 
 The full changelog can be found in: [./docs/CHANGELOG.md](./docs/CHANGELOG.md).
