@@ -23,11 +23,3 @@ jobs:
         with:
           name: output
           path: output
-      - name: "Copy output to examples"
-        run: |
-          ./ops/scripts/copy_examples.sh
-      - name: "Commit examples"
-        uses: EndBug/add-and-commit@v7
-        with:
-          message: 'GITOPS: add examples after build'
-          add: './examples'

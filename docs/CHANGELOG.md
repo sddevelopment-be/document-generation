@@ -13,7 +13,7 @@ Following changes are known:
   - **Security** in case of vulnerabilities.
 
 
-## [Unreleased]
+## [v1.0.0]
 
 ### Added
 - Added docx templates and generation scripts

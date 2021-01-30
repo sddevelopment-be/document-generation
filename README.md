@@ -3,6 +3,8 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END --> 
+![Build and publish Docker image](https://github.com/sddevelopment-be/document-generation/workflows/Build%20and%20publish%20Docker%20image/badge.svg)
+
 
 Dockerized markdown to document generator. 
 I got tired of writing technical documents in word and confluence.

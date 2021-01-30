@@ -2,6 +2,9 @@
 # contains all sorts of unfinished changes
 private/
 
+*.zip
+*tar.xz
+
 scripts/reveal.js/
 
 # build folder
