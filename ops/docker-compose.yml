@@ -2,7 +2,7 @@ version: '3'
 
 services:
   linux:
-    image: docgen:latest
+    image: sddevelopmentbe/docgen:latest
     stdin_open: true
     working_dir: /root/docGen
     volumes:

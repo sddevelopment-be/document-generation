@@ -21,6 +21,6 @@ Whether you are contributing to the source code, or want to add your example fil
 please follow these steps:
 
   - Fork the repository
-  - Create a new branch, and work on it
+  - [Create a new branch](https://guides.github.com/introduction/flow/), and work on it
   - When your change is DONE (implemented, and tested), submit a Pull Request using our [PR Template](../github/pull_request_template.md)
   - After the review process is completed, your changes will be merged into our `main` branch and included in a future release
