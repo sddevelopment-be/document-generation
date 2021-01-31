@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="476px" preserveAspectRatio="none" style="width:462px;height:476px;" version="1.1" viewBox="0 0 462 476" width="462px" zoomAndPan="magnify"><defs><filter height="300%" id="f33s0mg9w4ncx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[aa7f586532e18719e6cefa70fc650583]
+class Object--><rect codeLine="4" fill="#FEFECE" filter="url(#f33s0mg9w4ncx)" height="54.8002" id="Object" style="stroke:#A80036;stroke-width:1.5;" width="79" x="174.5" y="144"/><ellipse cx="189.5" cy="163.4001" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M188.8594,167.1814 Q189.6563,167.1814 190.2188,166.9939 Q190.7969,166.7907 191.0313,166.572 Q191.2813,166.3376 191.5156,166.1501 Q191.7656,165.947 191.9844,165.947 Q192.3281,165.947 192.5781,166.2126 Q192.8438,166.4626 192.8438,166.7907 Q192.8438,167.5251 191.6719,168.2126 Q190.5156,168.8845 188.8125,168.8845 Q186.6563,168.8845 185.2344,167.6189 Q183.8125,166.3532 183.8125,164.4157 L183.8125,163.2907 Q183.8125,161.2595 185.1406,159.8845 Q186.4688,158.4939 188.4375,158.4939 Q189.625,158.4939 190.8438,159.072 L191.0156,159.1501 Q191.3125,158.7439 191.7344,158.7439 Q192.2188,158.7439 192.3906,159.0407 Q192.5781,159.322 192.5781,159.8689 L192.5781,161.2907 Q192.5781,162.4157 191.7344,162.4157 Q191.4219,162.4157 191.2188,162.2439 Q191.0313,162.072 190.9844,161.9314 Q190.9531,161.7751 190.9063,161.5095 Q190.7969,160.9939 190.2813,160.6814 Q189.7656,160.3689 189.3125,160.2907 Q188.875,160.197 188.5,160.197 Q187.2188,160.197 186.3594,161.072 Q185.5156,161.947 185.5156,163.2907 L185.5156,164.3845 Q185.5156,165.6657 186.4219,166.4314 Q187.3281,167.1814 188.8594,167.1814 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="201.5" y="161.0001">«general»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="34" x="210" y="175.4002">Object</text><line style="stroke:#A80036;stroke-width:1.5;" x1="175.5" x2="252.5" y1="182.8002" y2="182.8002"/><line style="stroke:#A80036;stroke-width:1.5;" x1="175.5" x2="252.5" y1="190.8002" y2="190.8002"/><!--MD5=[ab8871ed637f40707b866ba6597734bc]
+class ArrayList--><rect fill="#FEFECE" filter="url(#f33s0mg9w4ncx)" height="48" id="ArrayList" style="stroke:#A80036;stroke-width:1.5;" width="80" x="203" y="414"/><ellipse cx="218" cy="430" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M217.3594,433.7813 Q218.1563,433.7813 218.7188,433.5938 Q219.2969,433.3906 219.5313,433.1719 Q219.7813,432.9375 220.0156,432.75 Q220.2656,432.5469 220.4844,432.5469 Q220.8281,432.5469 221.0781,432.8125 Q221.3438,433.0625 221.3438,433.3906 Q221.3438,434.125 220.1719,434.8125 Q219.0156,435.4844 217.3125,435.4844 Q215.1563,435.4844 213.7344,434.2188 Q212.3125,432.9531 212.3125,431.0156 L212.3125,429.8906 Q212.3125,427.8594 213.6406,426.4844 Q214.9688,425.0938 216.9375,425.0938 Q218.125,425.0938 219.3438,425.6719 L219.5156,425.75 Q219.8125,425.3438 220.2344,425.3438 Q220.7188,425.3438 220.8906,425.6406 Q221.0781,425.9219 221.0781,426.4688 L221.0781,427.8906 Q221.0781,429.0156 220.2344,429.0156 Q219.9219,429.0156 219.7188,428.8438 Q219.5313,428.6719 219.4844,428.5313 Q219.4531,428.375 219.4063,428.1094 Q219.2969,427.5938 218.7813,427.2813 Q218.2656,426.9688 217.8125,426.8906 Q217.375,426.7969 217,426.7969 Q215.7188,426.7969 214.8594,427.6719 Q214.0156,428.5469 214.0156,429.8906 L214.0156,430.9844 Q214.0156,432.2656 214.9219,433.0313 Q215.8281,433.7813 217.3594,433.7813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="232" y="434.8">ArrayList</text><line style="stroke:#A80036;stroke-width:1.5;" x1="204" x2="282" y1="446" y2="446"/><line style="stroke:#A80036;stroke-width:1.5;" x1="204" x2="282" y1="454" y2="454"/><path d="M150.5,6 L150.5,47.2 A0,0 0 0 0 150.5,47.2 L210,47.2 L214,143.86 L218,47.2 L277.5,47.2 A0,0 0 0 0 277.5,47.2 L277.5,16 L267.5,6 L150.5,6 A0,0 0 0 0 150.5,6 " fill="#FBFB77" filter="url(#f33s0mg9w4ncx)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M267.5,6 L267.5,16 L277.5,16 L267.5,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="156.5" y="24">In java, every class</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="156.5" y="39.6">extends this one.</text><path d="M313,13.5 L313,39.1 L453,39.1 L453,23.5 L443,13.5 L313,13.5 " fill="#FBFB77" filter="url(#f33s0mg9w4ncx)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M443,13.5 L443,23.5 L453,23.5 L443,13.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="319" y="31.5">This is a floating note</text><path d="M287,296 L287,337.2 L435,337.2 L435,306 L425,296 L287,296 " fill="#FBFB77" filter="url(#f33s0mg9w4ncx)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M425,296 L425,306 L435,306 L425,296 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="293" y="314">This note is connected</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="293" y="329.6">to several objects.</text><!--MD5=[d10371c429a20e8e62c953c705282488]
+class Foo--><rect codeLine="14" fill="#FEFECE" filter="url(#f33s0mg9w4ncx)" height="127.1994" id="Foo" style="stroke:#A80036;stroke-width:1.5;" width="101" x="31.5" y="108"/><ellipse cx="69" cy="124" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M68.3594,127.7813 Q69.1563,127.7813 69.7188,127.5938 Q70.2969,127.3906 70.5313,127.1719 Q70.7813,126.9375 71.0156,126.75 Q71.2656,126.5469 71.4844,126.5469 Q71.8281,126.5469 72.0781,126.8125 Q72.3438,127.0625 72.3438,127.3906 Q72.3438,128.125 71.1719,128.8125 Q70.0156,129.4844 68.3125,129.4844 Q66.1563,129.4844 64.7344,128.2188 Q63.3125,126.9531 63.3125,125.0156 L63.3125,123.8906 Q63.3125,121.8594 64.6406,120.4844 Q65.9688,119.0938 67.9375,119.0938 Q69.125,119.0938 70.3438,119.6719 L70.5156,119.75 Q70.8125,119.3438 71.2344,119.3438 Q71.7188,119.3438 71.8906,119.6406 Q72.0781,119.9219 72.0781,120.4688 L72.0781,121.8906 Q72.0781,123.0156 71.2344,123.0156 Q70.9219,123.0156 70.7188,122.8438 Q70.5313,122.6719 70.4844,122.5313 Q70.4531,122.375 70.4063,122.1094 Q70.2969,121.5938 69.7813,121.2813 Q69.2656,120.9688 68.8125,120.8906 Q68.375,120.7969 68,120.7969 Q66.7188,120.7969 65.8594,121.6719 Q65.0156,122.5469 65.0156,123.8906 L65.0156,124.9844 Q65.0156,126.2656 65.9219,127.0313 Q66.8281,127.7813 68.3594,127.7813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="19" x="88" y="128.8">Foo</text><line style="stroke:#A80036;stroke-width:1.5;" x1="32.5" x2="131.5" y1="140" y2="140"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="39.5" y="148"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="51.5" y="154.9999">privateField</text><ellipse cx="42.5" cy="164.1999" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="51.5" y="168.1998">publicField</text><polygon fill="none" points="42.5,172.3998,46.5,176.3998,42.5,180.3998,38.5,176.3998" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="51.5" y="181.3997">protectedField</text><polygon fill="none" points="42.5,186.5997,38.5,192.5997,46.5,192.5997" style="stroke:#1963A0;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="51.5" y="194.5996">classProtected</text><line style="stroke:#A80036;stroke-width:1.5;" x1="32.5" x2="131.5" y1="200.7996" y2="200.7996"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="37.5" y="215.7995">styled method01();</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="37.5" y="228.9994">void method02();</text><path d="M6,303.5 L6,329.1 A0,0 0 0 0 6,329.1 L144,329.1 A0,0 0 0 0 144,329.1 L144,313.5 L134,303.5 L79.6,303.5 L78.93,235.22 L71.6,303.5 L6,303.5 A0,0 0 0 0 6,303.5 " fill="#FBFB77" filter="url(#f33s0mg9w4ncx)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M134,303.5 L134,313.5 L144,313.5 L134,303.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="12" y="321.5">On last defined class</text><!--MD5=[78ed3d54c6ad96fb6434a4e45aa4b5f0]
+reverse link Object to ArrayList--><path codeLine="5" d="M219.13,219.45 C222.73,252.36 227.65,297.36 232,337 C234.9,363.39 238.23,393.7 240.46,413.96 " fill="none" id="Object-backto-ArrayList" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="212.14,219.93,216.93,199.28,226.06,218.4,212.14,219.93" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="233" y="322">parent</text><!--MD5=[3e4c2ab897744bf32c2b923a407c86d6]
+link Object to N2--><path codeLine="11" d="M241.31,199.06 C270.2,227.17 315.11,270.86 340.92,295.97 " fill="none" id="Object-N2" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><!--MD5=[5a614eaa38e8d197576af088f89b713e]
+link N2 to ArrayList--><path codeLine="12" d="M341.51,337.23 C320.7,358.31 287.74,391.69 265.75,413.96 " fill="none" id="N2-ArrayList" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="310" y="381">a message</text><!--MD5=[0a69f30ef9775177f006bf7d49837dba]
+link Foo to Object--><!--MD5=[8b47cc177800a9c6abbc59222032e7f2]
+@startuml
+
+!define DARKORANGE
+
+class Object << general >>
+Object <|- - - ArrayList : parent
+
+note top of Object : In java, every class\nextends this one.
+
+note "This is a floating note" as N1
+note "This note is connected\nto several objects." as N2
+Object .. N2
+N2 .. ArrayList : a message
+
+class Foo {
+  -privateField
+  +publicField
+  #protectedField
+  ~classProtected
+  styled method01();
+  void method02();
+}
+note bottom: On last defined class
+
+Foo -[hidden]> Object
+@enduml
+
+@startuml
+
+
+class Object << general >>
+Object <|- - - ArrayList : parent
+
+note top of Object : In java, every class\nextends this one.
+
+note "This is a floating note" as N1
+note "This note is connected\nto several objects." as N2
+Object .. N2
+N2 .. ArrayList : a message
+
+class Foo {
+  -privateField
+  +publicField
+  #protectedField
+  ~classProtected
+  styled method01();
+  void method02();
+}
+note bottom: On last defined class
+
+Foo -[hidden]> Object
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

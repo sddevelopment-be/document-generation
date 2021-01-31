@@ -1,0 +1,27 @@
+@startuml(id=SystemContext)
+title Software System - System Context
+caption An example of a System Context diagram.
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+hide stereotype
+top to bottom direction
+skinparam rectangle<<1>> {
+  BackgroundColor #08427b
+  FontColor #ffffff
+  BorderColor #052E56
+}
+skinparam rectangle<<2>> {
+  BackgroundColor #1168bd
+  FontColor #ffffff
+  BorderColor #0B4884
+}
+rectangle "==User\n<size:10>[Person]</size>\n\nA user of my software system." <<1>> as 1
+rectangle "==Software System\n<size:10>[Software System]</size>\n\nMy software system." <<2>> as 2
+1 .[#707070].> 2 : "Uses"
+@enduml

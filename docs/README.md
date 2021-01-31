@@ -80,6 +80,10 @@ to run all the examples. The result of these can be found in your local **./outp
 * pandoc [github](https://github.com/jgm/pandoc)
 * TexLive [website](https://tug.org/texlive/)
 * Prosegrinder Pandoc Templates [github](https://github.com/prosegrinder/pandoc-templates)
+* PlantUML [website](https://plantuml.com/)
+* PlantUML Server [github](https://github.com/plantuml/plantuml-server)
+* Drakemor's PlantUML stylsheets [github](https://github.com/Drakemor/RedDress-PlantUML)
+* YuzuTech's Kroki [github](https://github.com/yuzutech/kroki)
 
 ## Contributors
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

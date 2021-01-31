@@ -1,0 +1,2666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1175px" preserveAspectRatio="none" style="width:419px;height:1175px;" version="1.1" viewBox="0 0 419 1175" width="419px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gwprl23gs7ma" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="289" x="58.5" y="17.9999">Spring PetClinic - Deployment - Live</text><!--MD5=[7252ecac489e25e5f6f00861d7134bca]
+cluster 5--><polygon fill="#FFFFFF" filter="url(#f1gwprl23gs7ma)" points="16,37.5999,26,27.5999,402,27.5999,402,970.5999,392,980.5999,16,980.5999,16,37.5999" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="392" x2="402" y1="37.5999" y2="27.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="392" y1="37.5999" y2="37.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="392" x2="392" y1="37.5999" y2="980.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="153" x="128.5" y="54.5998">Amazon Web Services</text><!--MD5=[b663eb4e27a1e6092385000714b0506e]
+cluster 6--><polygon fill="#FFFFFF" filter="url(#f1gwprl23gs7ma)" points="40,85.5999,50,75.5999,378,75.5999,378,946.5999,368,956.5999,40,956.5999,40,85.5999" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="368" x2="378" y1="85.5999" y2="75.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="368" y1="85.5999" y2="85.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="368" x2="368" y1="85.5999" y2="956.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="171" y="102.5998">US-East-1</text><!--MD5=[1a90fd883f88e4e282354d081dea8cca]
+cluster 12--><polygon fill="#FFFFFF" filter="url(#f1gwprl23gs7ma)" points="68,693.5999,78,683.5999,350,683.5999,350,922.5999,340,932.5999,68,932.5999,68,693.5999" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="340" x2="350" y1="693.5999" y2="683.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="68" x2="340" y1="693.5999" y2="693.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="340" x2="340" y1="693.5999" y2="932.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="160" y="710.5998">Amazon RDS</text><!--MD5=[2a577d1b1375e445e2af73fd46b61068]
+cluster 13--><polygon fill="#FFFFFF" filter="url(#f1gwprl23gs7ma)" points="92,741.5999,102,731.5999,326,731.5999,326,898.5999,316,908.5999,92,908.5999,92,741.5999" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="316" x2="326" y1="741.5999" y2="731.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="92" x2="316" y1="741.5999" y2="741.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="316" x2="316" y1="741.5999" y2="908.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="180" y="758.5998">MySQL</text><!--MD5=[7c66d0e4e6eaa80c0c4023709e74e2b3]
+cluster 9--><polygon fill="#FFFFFF" filter="url(#f1gwprl23gs7ma)" points="64,365.5999,74,355.5999,354,355.5999,354,611.5999,344,621.5999,64,621.5999,64,365.5999" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="344" x2="354" y1="365.5999" y2="355.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="64" x2="344" y1="365.5999" y2="365.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="344" x2="344" y1="365.5999" y2="621.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="141" y="382.5998">Autoscaling group</text><!--MD5=[12e7b27a5decfde6b3773108bbaa6a3f]
+cluster 10--><polygon fill="#FFFFFF" filter="url(#f1gwprl23gs7ma)" points="88,413.5999,98,403.5999,330,403.5999,330,587.5999,320,597.5999,88,597.5999,88,413.5999" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="320" x2="330" y1="413.5999" y2="403.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="88" x2="320" y1="413.5999" y2="413.5999"/><line style="stroke:#000000;stroke-width:1.5;" x1="320" x2="320" y1="413.5999" y2="597.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="87" x="161.5" y="430.5998">Amazon EC2</text><!--MD5=[df1cfc51a8f3e60039521c9170723b8d]
+entity 8--><rect fill="#FFFFFF" height="36.7999" style="stroke:#000000;stroke-width:1.5;" width="155" x="131.5" y="242.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="141.5" y="266.5998">Elastic Load Balancer</text><!--MD5=[cbb381f34bde73e199f6c8e56df9562c]
+entity 7--><rect fill="#FFFFFF" height="36.7999" style="stroke:#000000;stroke-width:1.5;" width="76" x="171" y="115.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="181" y="139.5998">Route 53</text><!--MD5=[b289b39ced8dc6d267141842d8cb9775]
+entity 14--><rect fill="#438DD5" height="120.7998" style="stroke:#3C7FC0;stroke-width:1.5;" width="203" x="107.5" y="771.5999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="72" x="173" y="797.5999">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="160" x="129" y="812.8">[Relational database schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="211" y="829.1999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="121.5" y="845.9999">Stores information regarding</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="118.5" y="862.7998">the veterinarians, the clients,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="164.5" y="879.5997">and their pets.</text><!--MD5=[e25884bd7fe840786d881277a14c5a0e]
+entity 11--><rect fill="#438DD5" height="137.5998" style="stroke:#3C7FC0;stroke-width:1.5;" width="210" x="104" y="443.5999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="147" y="469.5999">Web Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="121" x="148.5" y="484.8">[Java and Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="211" y="501.1999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="118.5" y="517.9999">Allows employees to view and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="114" y="534.7998">manage information regarding</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="118.5" y="551.5997">the veterinarians, the clients,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="164.5" y="568.3997">and their pets.</text><!--MD5=[9dd29c1e8d46b0d1d3f862dbda83d71a]
+link 8 to 11--><path d="M209,279.6399 C209,311.5099 209,380.6299 209,435.1699 " fill="none" id="8-to-11" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="209,443.4499,212,435.4499,206,435.4499,209,443.4499" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="123" x="210" y="322.5999">Forwards requests to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="249" y="337">[HTTPS]</text><!--MD5=[5ca979b543d038a4b12f05f8f6f2c83d]
+link 7 to 8--><path d="M209,152.7399 C209,174.0599 209,210.0699 209,234.4499 " fill="none" id="7-to-8" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="209,242.5499,212,234.5499,206,234.5499,209,242.5499" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="123" x="210" y="195.5999">Forwards requests to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="249" y="210">[HTTPS]</text><!--MD5=[0955c5b0f861334d3399d7abf2a63ee8]
+link 11 to 14--><path d="M209,581.7099 C209,635.3499 209,709.7599 209,763.3099 " fill="none" id="11-to-14" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="209,771.3899,212,763.3899,206,763.3899,209,771.3899" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="210" y="650.5999">Reads from and writes to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="63" x="250" y="665">[JDBC/SSL]</text><rect fill="#FFFFFF" height="165.1993" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="140" x="257" y="994.5999"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="52" x="263" y="1015.5998">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="319" y="1015.5998"/><rect fill="#08427B" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1018.3998"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="267" y="1032.3997">person</text><rect fill="#1168BD" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1035.1997"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="267" y="1049.1997">system</text><rect fill="#438DD5" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1051.9996"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="267" y="1065.9996">container</text><rect fill="#85BBF0" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1068.7996"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="267" y="1082.7995">component</text><rect fill="#686868" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1085.5995"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="267" y="1099.5994">external person</text><rect fill="#999999" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1102.3994"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="267" y="1116.3994">external system</text><rect fill="#B3B3B3" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1119.1994"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="267" y="1133.1993">external container</text><rect fill="#CCCCCC" height="16.7999" style="stroke:none;stroke-width:1.0;" width="128" x="263" y="1135.9993"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="267" y="1149.9992">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1001.5999" y2="1001.5999"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1018.3998" y2="1018.3998"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1035.1997" y2="1035.1997"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1051.9996" y2="1051.9996"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1068.7996" y2="1068.7996"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1085.5995" y2="1085.5995"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1102.3994" y2="1102.3994"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1119.1994" y2="1119.1994"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1135.9993" y2="1135.9993"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="391" y1="1152.7992" y2="1152.7992"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="263" x2="263" y1="1001.5999" y2="1152.7992"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="391" x2="391" y1="1001.5999" y2="1152.7992"/><!--MD5=[a351c8c7a635f5881f932be7c86d623d]
+@startuml(id=AmazonWebServicesDeployment)
+
+' C4-PlantUML, version 2.0.0
+' https://github.com/plantuml-stdlib/C4-PlantUML
+
+' Colors
+' ##################################
+
+!global $ELEMENT_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_TITLE_COLOR = "#000000"
+
+' Styling
+' ##################################
+
+!global $TECHN_FONT_SIZE = 12
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor $LEGEND_FONT_COLOR
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+' Layout
+' ##################################
+
+!procedure HIDE_STEREOTYPE()
+hide stereotype
+!endprocedure
+
+!procedure LAYOUT_AS_SKETCH()
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
+!endprocedure
+
+!procedure LAYOUT_TOP_DOWN()
+top to bottom direction
+!endprocedure
+
+!procedure LAYOUT_LEFT_RIGHT() 
+left to right direction
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Boundary($alias, $label)
+!return 'rectangle "=='+$label+'" <<boundary>> as '+$alias
+!endfunction
+!unquoted function Boundary($alias, $label, $type)
+!return 'rectangle "=='+$label+'\n<size:'+$TECHN_FONT_SIZE+'>['+$type+']</size>" <<boundary>> as '+$alias
+!endfunction
+
+' Relationship
+' ##################################
+
+!unquoted procedure Rel_($alias1, $alias2, $label, $direction="")
+$alias1 $direction $alias2 : **$label**
+!endprocedure
+!unquoted procedure Rel_($alias1, $alias2, $label, $techn, $direction="")
+$alias1 $direction $alias2 : **$label**\n//<size:$TECHN_FONT_SIZE>[$techn]</size>//
+!endprocedure
+
+!unquoted procedure Rel($from, $to, $label)
+Rel_($from, $to, $label, "- ->>")
+!endprocedure
+!unquoted procedure Rel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "- ->>")
+!endprocedure
+
+!unquoted procedure BiRel($from, $to, $label)
+Rel_($from, $to, $label, "<<- ->>")
+!endprocedure
+!unquoted procedure BiRel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- ->>")
+!endprocedure
+
+!unquoted procedure Rel_Back($from, $to, $label)
+Rel_($from, $to, $label, "<<- -")
+!endprocedure
+!unquoted procedure Rel_Back($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- -")
+!endprocedure
+
+!unquoted procedure Rel_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "->>")
+!endprocedure
+!unquoted procedure Rel_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "->>")
+!endprocedure
+
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "<<-")
+!endprocedure
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-")
+!endprocedure
+
+!unquoted procedure Rel_D($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+
+!unquoted procedure BiRel_D($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+
+!unquoted procedure Rel_U($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+
+!unquoted procedure BiRel_U($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+
+!unquoted procedure Rel_L($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+
+!unquoted procedure BiRel_L($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+
+!unquoted procedure Rel_R($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+
+!unquoted procedure BiRel_R($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+
+' Layout Helpers
+' ##################################
+
+!unquoted procedure Lay_D($from, $to)
+$from -[hidden]D- $to
+!endprocedure
+!unquoted procedure Lay_U($from, $to)
+$from -[hidden]U- $to
+!endprocedure
+!unquoted procedure Lay_R($from, $to)
+$from -[hidden]R- $to
+!endprocedure
+!unquoted procedure Lay_L($from, $to)
+$from -[hidden]L- $to
+!endprocedure
+' C4-PlantUML, version 2.0.0
+' https://github.com/plantuml-stdlib/C4-PlantUML
+
+' Colors
+' ##################################
+
+!global $ELEMENT_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_TITLE_COLOR = "#000000"
+
+' Styling
+' ##################################
+
+!global $TECHN_FONT_SIZE = 12
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor $LEGEND_FONT_COLOR
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+' Layout
+' ##################################
+
+!procedure HIDE_STEREOTYPE()
+hide stereotype
+!endprocedure
+
+!procedure LAYOUT_AS_SKETCH()
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
+!endprocedure
+
+!procedure LAYOUT_TOP_DOWN()
+top to bottom direction
+!endprocedure
+
+!procedure LAYOUT_LEFT_RIGHT() 
+left to right direction
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Boundary($alias, $label)
+!return 'rectangle "=='+$label+'" <<boundary>> as '+$alias
+!endfunction
+!unquoted function Boundary($alias, $label, $type)
+!return 'rectangle "=='+$label+'\n<size:'+$TECHN_FONT_SIZE+'>['+$type+']</size>" <<boundary>> as '+$alias
+!endfunction
+
+' Relationship
+' ##################################
+
+!unquoted procedure Rel_($alias1, $alias2, $label, $direction="")
+$alias1 $direction $alias2 : **$label**
+!endprocedure
+!unquoted procedure Rel_($alias1, $alias2, $label, $techn, $direction="")
+$alias1 $direction $alias2 : **$label**\n//<size:$TECHN_FONT_SIZE>[$techn]</size>//
+!endprocedure
+
+!unquoted procedure Rel($from, $to, $label)
+Rel_($from, $to, $label, "- ->>")
+!endprocedure
+!unquoted procedure Rel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "- ->>")
+!endprocedure
+
+!unquoted procedure BiRel($from, $to, $label)
+Rel_($from, $to, $label, "<<- ->>")
+!endprocedure
+!unquoted procedure BiRel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- ->>")
+!endprocedure
+
+!unquoted procedure Rel_Back($from, $to, $label)
+Rel_($from, $to, $label, "<<- -")
+!endprocedure
+!unquoted procedure Rel_Back($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- -")
+!endprocedure
+
+!unquoted procedure Rel_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "->>")
+!endprocedure
+!unquoted procedure Rel_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "->>")
+!endprocedure
+
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "<<-")
+!endprocedure
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-")
+!endprocedure
+
+!unquoted procedure Rel_D($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+
+!unquoted procedure BiRel_D($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+
+!unquoted procedure Rel_U($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+
+!unquoted procedure BiRel_U($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+
+!unquoted procedure Rel_L($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+
+!unquoted procedure BiRel_L($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+
+!unquoted procedure Rel_R($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+
+!unquoted procedure BiRel_R($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+
+' Layout Helpers
+' ##################################
+
+!unquoted procedure Lay_D($from, $to)
+$from -[hidden]D- $to
+!endprocedure
+!unquoted procedure Lay_U($from, $to)
+$from -[hidden]U- $to
+!endprocedure
+!unquoted procedure Lay_R($from, $to)
+$from -[hidden]R- $to
+!endprocedure
+!unquoted procedure Lay_L($from, $to)
+$from -[hidden]L- $to
+!endprocedure
+' Scope: A single software system.
+' Primary elements: The software system in scope.
+' Supporting elements: People and software systems directly connected to the software system in scope.
+' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
+
+' Colors
+' ##################################
+
+!global $PERSON_BG_COLOR = "#08427B"
+!global $EXTERNAL_PERSON_BG_COLOR = "#686868"
+!global $SYSTEM_BG_COLOR = "#1168BD"
+!global $EXTERNAL_SYSTEM_BG_COLOR = "#999999"
+
+' Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $PERSON_BG_COLOR
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_PERSON_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $SYSTEM_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_SYSTEM_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+' Layout
+' ##################################
+
+!procedure LAYOUT_WITH_LEGEND()
+hide stereotype
+legend right
+|<color:$LEGEND_TITLE_COLOR>**Legend**</color> |
+|<$PERSON_BG_COLOR> person |
+|<$SYSTEM_BG_COLOR> system|
+|<$EXTERNAL_PERSON_BG_COLOR> external person |
+|<$EXTERNAL_SYSTEM_BG_COLOR> external system |
+endlegend
+!endprocedure
+
+' Elements
+' ##################################
+
+!function $getPerson($label, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '<$person>\n=='+$label
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '<$person>\n=='+$label+'\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n\n '+$descr
+!endif
+!endfunction
+
+!function $getSystem($label, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '=='+$label
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '=='+$label+'\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n\n '+$descr
+!endif
+!endfunction
+
+!unquoted procedure Person($alias, $label, $descr="", $sprite="")
+rectangle "$getPerson($label, $descr, $sprite)" <<person>> as $alias
+!endprocedure
+
+!unquoted procedure Person_Ext($alias, $label, $descr="", $sprite="")
+rectangle "$getPerson($label, $descr, $sprite)" <<external_person>> as $alias
+!endprocedure
+
+!unquoted procedure System($alias, $label, $descr="", $sprite="")
+rectangle "$getSystem($label, $descr, $sprite)" <<system>> as $alias
+!endprocedure
+
+!unquoted procedure System_Ext($alias, $label, $descr="", $sprite="")
+rectangle "$getSystem($label, $descr, $sprite)" <<external_system>> as $alias
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Enterprise_Boundary($alias, $label)
+!return Boundary($alias, $label, "Enterprise")
+!endfunction
+!unquoted function System_Boundary($alias, $label)
+!return Boundary($alias, $label, "System")
+!endfunction
+' C4-PlantUML, version 2.0.0
+' https://github.com/plantuml-stdlib/C4-PlantUML
+
+' Colors
+' ##################################
+
+!global $ELEMENT_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_TITLE_COLOR = "#000000"
+
+' Styling
+' ##################################
+
+!global $TECHN_FONT_SIZE = 12
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor $LEGEND_FONT_COLOR
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+' Layout
+' ##################################
+
+!procedure HIDE_STEREOTYPE()
+hide stereotype
+!endprocedure
+
+!procedure LAYOUT_AS_SKETCH()
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
+!endprocedure
+
+!procedure LAYOUT_TOP_DOWN()
+top to bottom direction
+!endprocedure
+
+!procedure LAYOUT_LEFT_RIGHT() 
+left to right direction
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Boundary($alias, $label)
+!return 'rectangle "=='+$label+'" <<boundary>> as '+$alias
+!endfunction
+!unquoted function Boundary($alias, $label, $type)
+!return 'rectangle "=='+$label+'\n<size:'+$TECHN_FONT_SIZE+'>['+$type+']</size>" <<boundary>> as '+$alias
+!endfunction
+
+' Relationship
+' ##################################
+
+!unquoted procedure Rel_($alias1, $alias2, $label, $direction="")
+$alias1 $direction $alias2 : **$label**
+!endprocedure
+!unquoted procedure Rel_($alias1, $alias2, $label, $techn, $direction="")
+$alias1 $direction $alias2 : **$label**\n//<size:$TECHN_FONT_SIZE>[$techn]</size>//
+!endprocedure
+
+!unquoted procedure Rel($from, $to, $label)
+Rel_($from, $to, $label, "- ->>")
+!endprocedure
+!unquoted procedure Rel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "- ->>")
+!endprocedure
+
+!unquoted procedure BiRel($from, $to, $label)
+Rel_($from, $to, $label, "<<- ->>")
+!endprocedure
+!unquoted procedure BiRel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- ->>")
+!endprocedure
+
+!unquoted procedure Rel_Back($from, $to, $label)
+Rel_($from, $to, $label, "<<- -")
+!endprocedure
+!unquoted procedure Rel_Back($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- -")
+!endprocedure
+
+!unquoted procedure Rel_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "->>")
+!endprocedure
+!unquoted procedure Rel_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "->>")
+!endprocedure
+
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "<<-")
+!endprocedure
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-")
+!endprocedure
+
+!unquoted procedure Rel_D($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+
+!unquoted procedure BiRel_D($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+
+!unquoted procedure Rel_U($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+
+!unquoted procedure BiRel_U($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+
+!unquoted procedure Rel_L($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+
+!unquoted procedure BiRel_L($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+
+!unquoted procedure Rel_R($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+
+!unquoted procedure BiRel_R($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+
+' Layout Helpers
+' ##################################
+
+!unquoted procedure Lay_D($from, $to)
+$from -[hidden]D- $to
+!endprocedure
+!unquoted procedure Lay_U($from, $to)
+$from -[hidden]U- $to
+!endprocedure
+!unquoted procedure Lay_R($from, $to)
+$from -[hidden]R- $to
+!endprocedure
+!unquoted procedure Lay_L($from, $to)
+$from -[hidden]L- $to
+!endprocedure
+' Scope: A single software system.
+' Primary elements: The software system in scope.
+' Supporting elements: People and software systems directly connected to the software system in scope.
+' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
+
+' Colors
+' ##################################
+
+!global $PERSON_BG_COLOR = "#08427B"
+!global $EXTERNAL_PERSON_BG_COLOR = "#686868"
+!global $SYSTEM_BG_COLOR = "#1168BD"
+!global $EXTERNAL_SYSTEM_BG_COLOR = "#999999"
+
+' Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $PERSON_BG_COLOR
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_PERSON_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $SYSTEM_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_SYSTEM_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+' Layout
+' ##################################
+
+!procedure LAYOUT_WITH_LEGEND()
+hide stereotype
+legend right
+|<color:$LEGEND_TITLE_COLOR>**Legend**</color> |
+|<$PERSON_BG_COLOR> person |
+|<$SYSTEM_BG_COLOR> system|
+|<$EXTERNAL_PERSON_BG_COLOR> external person |
+|<$EXTERNAL_SYSTEM_BG_COLOR> external system |
+endlegend
+!endprocedure
+
+' Elements
+' ##################################
+
+!function $getPerson($label, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '<$person>\n=='+$label
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '<$person>\n=='+$label+'\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n\n '+$descr
+!endif
+!endfunction
+
+!function $getSystem($label, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '=='+$label
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '=='+$label+'\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n\n '+$descr
+!endif
+!endfunction
+
+!unquoted procedure Person($alias, $label, $descr="", $sprite="")
+rectangle "$getPerson($label, $descr, $sprite)" <<person>> as $alias
+!endprocedure
+
+!unquoted procedure Person_Ext($alias, $label, $descr="", $sprite="")
+rectangle "$getPerson($label, $descr, $sprite)" <<external_person>> as $alias
+!endprocedure
+
+!unquoted procedure System($alias, $label, $descr="", $sprite="")
+rectangle "$getSystem($label, $descr, $sprite)" <<system>> as $alias
+!endprocedure
+
+!unquoted procedure System_Ext($alias, $label, $descr="", $sprite="")
+rectangle "$getSystem($label, $descr, $sprite)" <<external_system>> as $alias
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Enterprise_Boundary($alias, $label)
+!return Boundary($alias, $label, "Enterprise")
+!endfunction
+!unquoted function System_Boundary($alias, $label)
+!return Boundary($alias, $label, "System")
+!endfunction
+' Scope: A single software system.
+' Primary elements: Containers within the software system in scope.
+' Supporting elements: People and software systems directly connected to the containers.
+' Intended audience: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
+
+' Colors
+' ##################################
+
+!global $CONTAINER_BG_COLOR = "#438DD5"
+!global $CONTAINER_BORDER_COLOR = "#3C7FC0"
+!global $EXTERNAL_CONTAINER_BG_COLOR = "#B3B3B3"
+!global $EXTERNAL_CONTAINER_BORDER_COLOR = "#A6A6A6"
+
+' Styling
+' ##################################
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $CONTAINER_BG_COLOR
+    BorderColor $CONTAINER_BORDER_COLOR
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $CONTAINER_BG_COLOR
+    BorderColor $CONTAINER_BORDER_COLOR
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $CONTAINER_BG_COLOR
+    BorderColor $CONTAINER_BORDER_COLOR
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_CONTAINER_BG_COLOR
+    BorderColor $EXTERNAL_CONTAINER_BORDER_COLOR
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_CONTAINER_BG_COLOR
+    BorderColor $EXTERNAL_CONTAINER_BORDER_COLOR
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_CONTAINER_BG_COLOR
+    BorderColor $EXTERNAL_CONTAINER_BORDER_COLOR
+}
+
+' Layout
+' ##################################
+
+!procedure LAYOUT_WITH_LEGEND()
+hide stereotype
+legend right
+|<color:$LEGEND_TITLE_COLOR>**Legend**</color> |
+|<$PERSON_BG_COLOR> person |
+|<$SYSTEM_BG_COLOR> system |
+|<$CONTAINER_BG_COLOR> container |
+|<$EXTERNAL_PERSON_BG_COLOR> external person |
+|<$EXTERNAL_SYSTEM_BG_COLOR> external system |
+|<$EXTERNAL_CONTAINER_BG_COLOR> external container |
+endlegend
+!endprocedure
+
+' Elements
+' ##################################
+
+!function $getContainer($label, $techn, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//\n\n '+$descr
+!endif
+!endfunction
+
+!unquoted procedure Container($alias, $label, $techn, $descr="", $sprite="")
+rectangle "$getContainer($label, $techn, $descr, $sprite)" <<container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerDb($alias, $label, $techn, $descr="", $sprite="")
+database "$getContainer($label, $techn, $descr, $sprite)" <<container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerQueue($alias, $label, $techn, $descr="", $sprite="")
+queue "$getContainer($label, $techn, $descr, $sprite)" <<container>> as $alias
+!endprocedure
+
+!unquoted procedure Container_Ext($alias, $label, $techn, $descr="", $sprite="")
+rectangle "$getContainer($label, $techn, $descr, $sprite)" <<external_container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerDb_Ext($alias, $label, $techn, $descr="", $sprite="")
+database "$getContainer($label, $techn, $descr, $sprite)" <<external_container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerQueue_Ext($alias, $label, $techn, $descr="", $sprite="")
+queue "$getContainer($label, $techn, $descr, $sprite)" <<external_container>> as $alias
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Container_Boundary($alias, $label)
+!return Boundary($alias, $label, "Container")
+!endfunction
+' C4-PlantUML, version 2.0.0
+' https://github.com/plantuml-stdlib/C4-PlantUML
+
+' Colors
+' ##################################
+
+!global $ELEMENT_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_FONT_COLOR = "#FFFFFF"
+!global $LEGEND_TITLE_COLOR = "#000000"
+
+' Styling
+' ##################################
+
+!global $TECHN_FONT_SIZE = 12
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor $LEGEND_FONT_COLOR
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+' Layout
+' ##################################
+
+!procedure HIDE_STEREOTYPE()
+hide stereotype
+!endprocedure
+
+!procedure LAYOUT_AS_SKETCH()
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
+!endprocedure
+
+!procedure LAYOUT_TOP_DOWN()
+top to bottom direction
+!endprocedure
+
+!procedure LAYOUT_LEFT_RIGHT() 
+left to right direction
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Boundary($alias, $label)
+!return 'rectangle "=='+$label+'" <<boundary>> as '+$alias
+!endfunction
+!unquoted function Boundary($alias, $label, $type)
+!return 'rectangle "=='+$label+'\n<size:'+$TECHN_FONT_SIZE+'>['+$type+']</size>" <<boundary>> as '+$alias
+!endfunction
+
+' Relationship
+' ##################################
+
+!unquoted procedure Rel_($alias1, $alias2, $label, $direction="")
+$alias1 $direction $alias2 : **$label**
+!endprocedure
+!unquoted procedure Rel_($alias1, $alias2, $label, $techn, $direction="")
+$alias1 $direction $alias2 : **$label**\n//<size:$TECHN_FONT_SIZE>[$techn]</size>//
+!endprocedure
+
+!unquoted procedure Rel($from, $to, $label)
+Rel_($from, $to, $label, "- ->>")
+!endprocedure
+!unquoted procedure Rel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "- ->>")
+!endprocedure
+
+!unquoted procedure BiRel($from, $to, $label)
+Rel_($from, $to, $label, "<<- ->>")
+!endprocedure
+!unquoted procedure BiRel($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- ->>")
+!endprocedure
+
+!unquoted procedure Rel_Back($from, $to, $label)
+Rel_($from, $to, $label, "<<- -")
+!endprocedure
+!unquoted procedure Rel_Back($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<- -")
+!endprocedure
+
+!unquoted procedure Rel_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "->>")
+!endprocedure
+!unquoted procedure Rel_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "->>")
+!endprocedure
+
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label)
+Rel_($from, $to, $label, "<<-")
+!endprocedure
+!unquoted procedure Rel_Back_Neighbor($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-")
+!endprocedure
+
+!unquoted procedure Rel_D($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label)
+Rel_($from, $to, $label, "-DOWN->>")
+!endprocedure
+!unquoted procedure Rel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-DOWN->>")
+!endprocedure
+
+!unquoted procedure BiRel_D($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_D($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label)
+Rel_($from, $to, $label, "<<-DOWN->>")
+!endprocedure
+!unquoted procedure BiRel_Down($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-DOWN->>")
+!endprocedure
+
+!unquoted procedure Rel_U($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label)
+Rel_($from, $to, $label, "-UP->>")
+!endprocedure
+!unquoted procedure Rel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-UP->>")
+!endprocedure
+
+!unquoted procedure BiRel_U($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_U($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label)
+Rel_($from, $to, $label, "<<-UP->>")
+!endprocedure
+!unquoted procedure BiRel_Up($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-UP->>")
+!endprocedure
+
+!unquoted procedure Rel_L($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label)
+Rel_($from, $to, $label, "-LEFT->>")
+!endprocedure
+!unquoted procedure Rel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-LEFT->>")
+!endprocedure
+
+!unquoted procedure BiRel_L($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_L($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label)
+Rel_($from, $to, $label, "<<-LEFT->>")
+!endprocedure
+!unquoted procedure BiRel_Left($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-LEFT->>")
+!endprocedure
+
+!unquoted procedure Rel_R($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label)
+Rel_($from, $to, $label, "-RIGHT->>")
+!endprocedure
+!unquoted procedure Rel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "-RIGHT->>")
+!endprocedure
+
+!unquoted procedure BiRel_R($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_R($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label)
+Rel_($from, $to, $label, "<<-RIGHT->>")
+!endprocedure
+!unquoted procedure BiRel_Right($from, $to, $label, $techn)
+Rel_($from, $to, $label, $techn, "<<-RIGHT->>")
+!endprocedure
+
+' Layout Helpers
+' ##################################
+
+!unquoted procedure Lay_D($from, $to)
+$from -[hidden]D- $to
+!endprocedure
+!unquoted procedure Lay_U($from, $to)
+$from -[hidden]U- $to
+!endprocedure
+!unquoted procedure Lay_R($from, $to)
+$from -[hidden]R- $to
+!endprocedure
+!unquoted procedure Lay_L($from, $to)
+$from -[hidden]L- $to
+!endprocedure
+' Scope: A single software system.
+' Primary elements: The software system in scope.
+' Supporting elements: People and software systems directly connected to the software system in scope.
+' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
+
+' Colors
+' ##################################
+
+!global $PERSON_BG_COLOR = "#08427B"
+!global $EXTERNAL_PERSON_BG_COLOR = "#686868"
+!global $SYSTEM_BG_COLOR = "#1168BD"
+!global $EXTERNAL_SYSTEM_BG_COLOR = "#999999"
+
+' Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $PERSON_BG_COLOR
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_PERSON_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $SYSTEM_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_SYSTEM_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+' Layout
+' ##################################
+
+!procedure LAYOUT_WITH_LEGEND()
+hide stereotype
+legend right
+|<color:$LEGEND_TITLE_COLOR>**Legend**</color> |
+|<$PERSON_BG_COLOR> person |
+|<$SYSTEM_BG_COLOR> system|
+|<$EXTERNAL_PERSON_BG_COLOR> external person |
+|<$EXTERNAL_SYSTEM_BG_COLOR> external system |
+endlegend
+!endprocedure
+
+' Elements
+' ##################################
+
+!function $getPerson($label, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '<$person>\n=='+$label
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '<$person>\n=='+$label+'\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n\n '+$descr
+!endif
+!endfunction
+
+!function $getSystem($label, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '=='+$label
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '=='+$label+'\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n\n '+$descr
+!endif
+!endfunction
+
+!unquoted procedure Person($alias, $label, $descr="", $sprite="")
+rectangle "$getPerson($label, $descr, $sprite)" <<person>> as $alias
+!endprocedure
+
+!unquoted procedure Person_Ext($alias, $label, $descr="", $sprite="")
+rectangle "$getPerson($label, $descr, $sprite)" <<external_person>> as $alias
+!endprocedure
+
+!unquoted procedure System($alias, $label, $descr="", $sprite="")
+rectangle "$getSystem($label, $descr, $sprite)" <<system>> as $alias
+!endprocedure
+
+!unquoted procedure System_Ext($alias, $label, $descr="", $sprite="")
+rectangle "$getSystem($label, $descr, $sprite)" <<external_system>> as $alias
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Enterprise_Boundary($alias, $label)
+!return Boundary($alias, $label, "Enterprise")
+!endfunction
+!unquoted function System_Boundary($alias, $label)
+!return Boundary($alias, $label, "System")
+!endfunction
+' Scope: A single software system.
+' Primary elements: Containers within the software system in scope.
+' Supporting elements: People and software systems directly connected to the containers.
+' Intended audience: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
+
+' Colors
+' ##################################
+
+!global $CONTAINER_BG_COLOR = "#438DD5"
+!global $CONTAINER_BORDER_COLOR = "#3C7FC0"
+!global $EXTERNAL_CONTAINER_BG_COLOR = "#B3B3B3"
+!global $EXTERNAL_CONTAINER_BORDER_COLOR = "#A6A6A6"
+
+' Styling
+' ##################################
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $CONTAINER_BG_COLOR
+    BorderColor $CONTAINER_BORDER_COLOR
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $CONTAINER_BG_COLOR
+    BorderColor $CONTAINER_BORDER_COLOR
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $CONTAINER_BG_COLOR
+    BorderColor $CONTAINER_BORDER_COLOR
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_CONTAINER_BG_COLOR
+    BorderColor $EXTERNAL_CONTAINER_BORDER_COLOR
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_CONTAINER_BG_COLOR
+    BorderColor $EXTERNAL_CONTAINER_BORDER_COLOR
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor $ELEMENT_FONT_COLOR
+    FontColor $ELEMENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_CONTAINER_BG_COLOR
+    BorderColor $EXTERNAL_CONTAINER_BORDER_COLOR
+}
+
+' Layout
+' ##################################
+
+!procedure LAYOUT_WITH_LEGEND()
+hide stereotype
+legend right
+|<color:$LEGEND_TITLE_COLOR>**Legend**</color> |
+|<$PERSON_BG_COLOR> person |
+|<$SYSTEM_BG_COLOR> system |
+|<$CONTAINER_BG_COLOR> container |
+|<$EXTERNAL_PERSON_BG_COLOR> external person |
+|<$EXTERNAL_SYSTEM_BG_COLOR> external system |
+|<$EXTERNAL_CONTAINER_BG_COLOR> external container |
+endlegend
+!endprocedure
+
+' Elements
+' ##################################
+
+!function $getContainer($label, $techn, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//\n\n '+$descr
+!endif
+!endfunction
+
+!unquoted procedure Container($alias, $label, $techn, $descr="", $sprite="")
+rectangle "$getContainer($label, $techn, $descr, $sprite)" <<container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerDb($alias, $label, $techn, $descr="", $sprite="")
+database "$getContainer($label, $techn, $descr, $sprite)" <<container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerQueue($alias, $label, $techn, $descr="", $sprite="")
+queue "$getContainer($label, $techn, $descr, $sprite)" <<container>> as $alias
+!endprocedure
+
+!unquoted procedure Container_Ext($alias, $label, $techn, $descr="", $sprite="")
+rectangle "$getContainer($label, $techn, $descr, $sprite)" <<external_container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerDb_Ext($alias, $label, $techn, $descr="", $sprite="")
+database "$getContainer($label, $techn, $descr, $sprite)" <<external_container>> as $alias
+!endprocedure
+
+!unquoted procedure ContainerQueue_Ext($alias, $label, $techn, $descr="", $sprite="")
+queue "$getContainer($label, $techn, $descr, $sprite)" <<external_container>> as $alias
+!endprocedure
+
+' Boundaries
+' ##################################
+
+!unquoted function Container_Boundary($alias, $label)
+!return Boundary($alias, $label, "Container")
+!endfunction
+' Scope: A single container.
+' Primary elements: Components within the container in scope.
+' Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+' Intended audience: Software architects and developers.
+
+' Colors
+' ##################################
+
+!global $COMPONENT_FONT_COLOR = "#000000"
+!global $COMPONENT_BG_COLOR = "#85BBF0"
+!global $COMPONENT_BORDER_COLOR = "#78A8D8"
+!global $EXTERNAL_COMPONENT_BG_COLOR = "#CCCCCC"
+!global $EXTERNAL_COMPONENT_BORDER_COLOR = "#BFBFBF"
+
+' Styling
+' ##################################
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor $COMPONENT_FONT_COLOR
+    FontColor $COMPONENT_FONT_COLOR
+    BackgroundColor $COMPONENT_BG_COLOR
+    BorderColor $COMPONENT_BORDER_COLOR
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor $COMPONENT_FONT_COLOR
+    FontColor $COMPONENT_FONT_COLOR
+    BackgroundColor $COMPONENT_BG_COLOR
+    BorderColor $COMPONENT_BORDER_COLOR
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor $COMPONENT_FONT_COLOR
+    FontColor $COMPONENT_FONT_COLOR
+    BackgroundColor $COMPONENT_BG_COLOR
+    BorderColor $COMPONENT_BORDER_COLOR
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor $COMPONENT_FONT_COLOR
+    FontColor $COMPONENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_COMPONENT_BG_COLOR
+    BorderColor $EXTERNAL_COMPONENT_BORDER_COLOR
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor $COMPONENT_FONT_COLOR
+    FontColor $COMPONENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_COMPONENT_BG_COLOR
+    BorderColor $EXTERNAL_COMPONENT_BORDER_COLOR
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor $COMPONENT_FONT_COLOR
+    FontColor $COMPONENT_FONT_COLOR
+    BackgroundColor $EXTERNAL_COMPONENT_BG_COLOR
+    BorderColor $EXTERNAL_COMPONENT_BORDER_COLOR
+}
+
+' Layout
+' ##################################
+
+!procedure LAYOUT_WITH_LEGEND()
+hide stereotype
+legend right
+|<color:$LEGEND_TITLE_COLOR>**Legend**</color> |
+|<$PERSON_BG_COLOR> person |
+|<$SYSTEM_BG_COLOR> system |
+|<$CONTAINER_BG_COLOR> container |
+|<$COMPONENT_BG_COLOR> component |
+|<$EXTERNAL_PERSON_BG_COLOR> external person |
+|<$EXTERNAL_SYSTEM_BG_COLOR> external system |
+|<$EXTERNAL_CONTAINER_BG_COLOR> external container |
+|<$EXTERNAL_COMPONENT_BG_COLOR> external component |
+endlegend
+!endprocedure
+
+' Elements
+' ##################################
+
+!function $getComponent($label, $techn, $descr, $sprite)
+!if ($descr == "") && ($sprite == "")
+!return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
+!endif
+!if ($descr == "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
+!endif
+!if ($descr != "") && ($sprite == "")
+!return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//\n\n '+$descr
+!endif
+!if ($descr != "") && ($sprite != "")
+!return '<$'+$sprite+'>\n=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//\n\n '+$descr
+!endif
+!endfunction
+
+!unquoted procedure Component($alias, $label, $techn, $descr="", $sprite="")
+rectangle "$getComponent($label, $techn, $descr, $sprite)" <<component>> as $alias
+!endprocedure
+
+!unquoted procedure ComponentDb($alias, $label, $techn, $descr="", $sprite="")
+database "$getComponent($label, $techn, $descr, $sprite)" <<component>> as $alias
+!endprocedure
+
+!unquoted procedure ComponentQueue($alias, $label, $techn, $descr="", $sprite="")
+queue "$getComponent($label, $techn, $descr, $sprite)" <<component>> as $alias
+!endprocedure
+
+!unquoted procedure Component_Ext($alias, $label, $techn, $descr="", $sprite="")
+rectangle "$getComponent($label, $techn, $descr, $sprite)" <<external_component>> as $alias
+!endprocedure
+
+!unquoted procedure ComponentDb_Ext($alias, $label, $techn, $descr="", $sprite="")
+database "$getComponent($label, $techn, $descr, $sprite)" <<external_component>> as $alias
+!endprocedure
+
+!unquoted procedure ComponentQueue_Ext($alias, $label, $techn, $descr="", $sprite="")
+queue "$getComponent($label, $techn, $descr, $sprite)" <<external_component>> as $alias
+!endprocedure
+LAYOUT_WITH_LEGEND()
+
+title Spring PetClinic - Deployment - Live
+
+node "Amazon Web Services" <<Deployment Node>> as 5 {
+  node "US-East-1" <<Deployment Node>> as 6 {
+    node "Amazon RDS" <<Deployment Node>> as 12 {
+      node "MySQL" <<Deployment Node>> as 13 {
+        Container(14, "Database", "Relational database schema", "Stores information regarding the veterinarians, the clients, and their pets.")
+      }
+    }
+    node "Autoscaling group" <<Deployment Node>> as 9 {
+      node "Amazon EC2" <<Deployment Node>> as 10 {
+        Container(11, "Web Application", "Java and Spring Boot", "Allows employees to view and manage information regarding the veterinarians, the clients, and their pets.")
+      }
+    }
+    rectangle 8 <<Infrastructure Node>> #ffffff [
+      Elastic Load Balancer
+    ]
+    rectangle 7 <<Infrastructure Node>> #ffffff [
+      Route 53
+    ]
+  }
+}
+Rel_D(8, 11, "Forwards requests to", "HTTPS")
+Rel_D(7, 8, "Forwards requests to", "HTTPS")
+Rel_D(11, 14, "Reads from and writes to", "JDBC/SSL")
+@enduml
+
+@startuml(id=AmazonWebServicesDeployment)
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+title Spring PetClinic - Deployment - Live
+
+node "Amazon Web Services" <<Deployment Node>> as 5 {
+  node "US-East-1" <<Deployment Node>> as 6 {
+    node "Amazon RDS" <<Deployment Node>> as 12 {
+      node "MySQL" <<Deployment Node>> as 13 {
+        rectangle "==Database\n//<size:12>[Relational database schema]</size>//\n\n Stores information regarding the veterinarians, the clients, and their pets." <<container>> as 14
+      }
+    }
+    node "Autoscaling group" <<Deployment Node>> as 9 {
+      node "Amazon EC2" <<Deployment Node>> as 10 {
+        rectangle "==Web Application\n//<size:12>[Java and Spring Boot]</size>//\n\n Allows employees to view and manage information regarding the veterinarians, the clients, and their pets." <<container>> as 11
+      }
+    }
+    rectangle 8 <<Infrastructure Node>> #ffffff [
+      Elastic Load Balancer
+    ]
+    rectangle 7 <<Infrastructure Node>> #ffffff [
+      Route 53
+    ]
+  }
+}
+8 -DOWN->> 11 : **Forwards requests to**\n//<size:12>[HTTPS]</size>//
+7 -DOWN->> 8 : **Forwards requests to**\n//<size:12>[HTTPS]</size>//
+11 -DOWN->> 14 : **Reads from and writes to**\n//<size:12>[JDBC/SSL]</size>//
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

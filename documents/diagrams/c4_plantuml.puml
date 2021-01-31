@@ -1,0 +1,34 @@
+@startuml(id=AmazonWebServicesDeployment)
+
+!includeurl /root/docGen/templates/diagrams/platuml/C4.puml
+!includeurl /root/docGen/templates/diagrams/platuml/C4_Context.puml
+!includeurl /root/docGen/templates/diagrams/platuml/C4_Container.puml
+!includeurl /root/docGen/templates/diagrams/platuml/C4_Component.puml
+LAYOUT_WITH_LEGEND()
+
+title Spring PetClinic - Deployment - Live
+
+node "Amazon Web Services" <<Deployment Node>> as 5 {
+  node "US-East-1" <<Deployment Node>> as 6 {
+    node "Amazon RDS" <<Deployment Node>> as 12 {
+      node "MySQL" <<Deployment Node>> as 13 {
+        Container(14, "Database", "Relational database schema", "Stores information regarding the veterinarians, the clients, and their pets.")
+      }
+    }
+    node "Autoscaling group" <<Deployment Node>> as 9 {
+      node "Amazon EC2" <<Deployment Node>> as 10 {
+        Container(11, "Web Application", "Java and Spring Boot", "Allows employees to view and manage information regarding the veterinarians, the clients, and their pets.")
+      }
+    }
+    rectangle 8 <<Infrastructure Node>> #ffffff [
+      Elastic Load Balancer
+    ]
+    rectangle 7 <<Infrastructure Node>> #ffffff [
+      Route 53
+    ]
+  }
+}
+Rel_D(8, 11, "Forwards requests to", "HTTPS")
+Rel_D(7, 8, "Forwards requests to", "HTTPS")
+Rel_D(11, 14, "Reads from and writes to", "JDBC/SSL")
+@enduml

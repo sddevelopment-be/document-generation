@@ -15,7 +15,8 @@ RUN \
       mkdir \
       /root/docGen \
       /root/docGen/documents \
-      /root/docGen/output
+      /root/docGen/output \
+      /root/docGen/lib
 
 ADD scripts /root/docGen/scripts
 ADD templates /root/docGen/templates
@@ -25,7 +26,9 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Install required software on server instance
 RUN apt-get update && apt-get install -y \
+  apt-utils \
   ssh \
+  software-properties-common \
   git \
   pandoc \
   texlive-latex-base \
