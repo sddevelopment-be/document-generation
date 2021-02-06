@@ -5,9 +5,9 @@
 
 FROM ubuntu:latest
 
-LABEL be.sddevelopment.docgen.version="0.1.0-alpha"
+LABEL be.sddevelopment.docgen.version="0.2.0"
 LABEL vendor1="DEJONGH STIJN, software development"
-LABEL be.sddevelopment.docgen.release-date="2021-01-24"
+LABEL be.sddevelopment.docgen.release-date="2021-02-06"
 LABEL be.sddevelopment.docgen.is-production="false"
 
 # Set up directories
@@ -41,6 +41,21 @@ RUN wget https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/ma
 RUN cp -r /root/docGen/templates/*.latex /usr/share/pandoc/data/templates/
 
 
+# Python, Sphinx, etc
+RUN apt-get update && apt-get install -y \
+  python3-dev \
+  python3-pip \
+  imagemagick \
+  python-is-python3
+
+RUN pip3 install --upgrade pip && pip3 --version
+
+RUN pip3 install -U \
+      sphinx \
+      pypandoc \
+      recommonmark
+
 WORKDIR /root/docGen
+
 
 CMD ["bash"]

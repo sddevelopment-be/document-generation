@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DocGen Project User Guide &#8212; DocGen Examples 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Keeping a Changelog" href="../CHANGELOG/" />
+    <link rel="prev" title="About" href="../README/" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="docgen-project-user-guide">
+<h1>DocGen Project User Guide<a class="headerlink" href="#docgen-project-user-guide" title="Permalink to this headline">¶</a></h1>
+<p><strong>Table of Contents:</strong></p>
+<!-- vim-markdown-toc GFM --><ul class="simple">
+<li><p><a class="reference external" href="#background-information">Background Information</a></p></li>
+<li><p><a class="reference external" href="#project-structure">Project Structure</a></p></li>
+<li><p><a class="reference external" href="#system-requirements">System Requirements</a></p></li>
+<li><p><a class="reference external" href="#getting-started-with-sdd-docgen">Getting Started with SDD DocGen</a></p>
+<ul>
+<li><p><a class="reference external" href="#start-the-containers">Start the containers</a></p></li>
+<li><p><a class="reference external" href="#run-conversion">Run conversion</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#specific-tasks-and-goals">Specific Tasks and Goals</a></p></li>
+</ul>
+<!-- vim-markdown-toc --><div class="section" id="background-information">
+<h2>Background Information<a class="headerlink" href="#background-information" title="Permalink to this headline">¶</a></h2>
+<p>The DocGen project is meant as a way to simplify the installation and usage of
+FOSS plain text document layouting systems. The main advantages of using a plain
+text format to write and maintain your documentation files are:</p>
+<ul class="simple">
+<li><p><strong>Avoiding cross-vendor incompatibilities:</strong> converting documents from one format
+to another is a tedious task. This is even more the case when the file format of your
+documentation is a proprietary format.</p></li>
+<li><p><strong>Versionable documentation:</strong> plain text files allow you to make use of most
+<a class="reference external" href="https://en.wikipedia.org/wiki/Concurrent_Versions_System">CVS systems</a>. This allows you to choose whatever CVS suits you best, and allows you
+to use your favorite versioning tooling.</p></li>
+<li><p><strong>No special tooling needed:</strong> while writing plain-text document syntax is significantly
+simplified by using a text-editor with syntax support for layouting languages, they are not
+required. A simple editor such as <code class="docutils literal notranslate"><span class="pre">nano</span></code>, <code class="docutils literal notranslate"><span class="pre">vi</span></code> or <code class="docutils literal notranslate"><span class="pre">notepad</span></code> is sufficient.</p></li>
+</ul>
+</div>
+<div class="section" id="project-structure">
+<h2>Project Structure<a class="headerlink" href="#project-structure" title="Permalink to this headline">¶</a></h2>
+<p>Most of the DocGen Project is a simple aggregation of various Free and Open Source Software
+projects. The main issue when relying on an eclectic stack to generate documents is that you
+need to install and configure all components on every machine you wish to use it.</p>
+<p>DocGen aims to solve this by providing users with an easier way to do this set-up.
+Installation and usage of this repository (stand-alone or as a supporting stack for your
+other repositories) should be limited to three distinct installation operations:</p>
+<ul class="simple">
+<li><p>Install the container framework (Docker)</p></li>
+<li><p>Clone the repository</p></li>
+<li><p>Run the conversion scripts</p></li>
+</ul>
+<p>The diagram below shows how the DocGen stack operates on your personal machine or server infrastructure.</p>
+<p><img alt="Structure of the project's components" src="../_images/project-runtime-structure.svg" /></p>
+</div>
+<div class="section" id="system-requirements">
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Docker version 19+</p></li>
+<li><p>Sufficient RAM (4 GB and higher)</p></li>
+<li><p>Sufficient free memory space ( recommended 10 GB or more for docker images )</p></li>
+</ul>
+</div>
+<div class="section" id="getting-started-with-sdd-docgen">
+<h2>Getting Started with SDD DocGen<a class="headerlink" href="#getting-started-with-sdd-docgen" title="Permalink to this headline">¶</a></h2>
+<p>Before attempting to use the project for yourself,
+try to build the samples included in this repository first.
+This will give you a good idea of how the project is intended to be used,
+and how you can extend or adapt it to your own needs.</p>
+<div class="section" id="start-the-containers">
+<h3>Start the containers<a class="headerlink" href="#start-the-containers" title="Permalink to this headline">¶</a></h3>
+<p>Create the docker image.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> ./ops
+sh build_docker.sh &lt;VERSION&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="run-conversion">
+<h3>Run conversion<a class="headerlink" href="#run-conversion" title="Permalink to this headline">¶</a></h3>
+<p>Start the docker-compose containers and execute the commands showed below.
+You can edit the scripts in <a class="reference external" href="../ops/scripts/">ops/scripts/</a>, or add your own.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker-compose -f ./ops/docker-compose.yml up -d --remove-orphans
+docker-compose -f ./ops/docker-compose.yml <span class="nb">exec</span> linux sh /root/docGen/scripts/doc_runner.sh documents/document_sample.md document sdd-base
+</pre></div>
+</div>
+<p>Alternativly, you can use the <code class="docutils literal notranslate"><span class="pre">convert_documents.sh</span></code> script included in this repository’s root
+to run all the examples. The result of these can be found in your local <strong>./output</strong> directory.</p>
+</div>
+</div>
+<div class="section" id="specific-tasks-and-goals">
+<h2>Specific Tasks and Goals<a class="headerlink" href="#specific-tasks-and-goals" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>INFO: This section is a STUB and will be expanded in the future</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><a class="reference internal" href="../guides/documenting_in_markdown/"><span class="doc">Documenting in markdown</span></a></p></li>
+<li><p><a class="reference internal" href="../guides/slideshows_with_markdown/"><span class="doc">Creating slideshows with DocGen</span></a></p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../">DocGen Examples</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../README/">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#releases">Releases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#purpose">Purpose</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#tech-stack">Tech Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#acknowledgements">Acknowledgements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#change-history">Change History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README/#showcase-videos">Showcase videos</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">DocGen Project User Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#background-information">Background Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#project-structure">Project Structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#getting-started-with-sdd-docgen">Getting Started with SDD DocGen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#specific-tasks-and-goals">Specific Tasks and Goals</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../CHANGELOG/">Keeping a Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CHANGELOG/#changes">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING/">How to contribute</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../">Documentation overview</a><ul>
+      <li>Previous: <a href="../README/" title="previous chapter">About</a></li>
+      <li>Next: <a href="../CHANGELOG/" title="next chapter">Keeping a Changelog</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search/" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Stijn Dejongh.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/USAGE.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

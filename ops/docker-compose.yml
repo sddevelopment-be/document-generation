@@ -7,6 +7,7 @@ services:
     working_dir: /root/docGen
     volumes:
       - $PWD/documents:/root/docGen/documents
+      - $PWD/docs:/root/docGen/docs
       - $PWD/output:/root/docGen/output
       - $PWD/ops/scripts:/root/docGen/scripts
       - $PWD/ops/templates:/root/docGen/templates

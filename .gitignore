@@ -1,6 +1,7 @@
 
 # contains all sorts of unfinished changes
 private/
+output
 
 *.zip
 *tar.xz

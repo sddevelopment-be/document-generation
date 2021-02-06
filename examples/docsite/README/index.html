@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About &#8212; DocGen Examples 2.0.0 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="DocGen Project User Guide" href="../USAGE/" />
+    <link rel="prev" title="Welcome to DocGen documentation!" href="../" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <p><img alt="SD Development DocGen Banner" src="../_images/sdd_docgen.png" /></p>
+<!-- vim-markdown-toc GFM --><ul class="simple">
+<li><p><a class="reference external" href="#about">About</a></p></li>
+<li><p><a class="reference external" href="#releases">Releases</a></p>
+<ul>
+<li><p><a class="reference external" href="#docker-images">Docker Images</a></p></li>
+<li><p><a class="reference external" href="#sources-and-examples">Sources and Examples</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#purpose">Purpose</a></p>
+<ul>
+<li><p><a class="reference external" href="#repository-structure">Repository structure</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#usage">Usage</a></p></li>
+<li><p><a class="reference external" href="#tech-stack">Tech Stack</a></p></li>
+<li><p><a class="reference external" href="#acknowledgements">Acknowledgements</a></p>
+<ul>
+<li><p><a class="reference external" href="#foss-projects">FOSS Projects</a></p></li>
+<li><p><a class="reference external" href="#contributors">Contributors</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#change-history">Change History</a></p></li>
+<li><p><a class="reference external" href="#showcase-videos">Showcase videos</a></p></li>
+</ul>
+<!-- vim-markdown-toc --><div class="section" id="about">
+<h1>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h1>
+<p>Dockerized markdown to document generator.</p>
+<p>The value of documenting your work is not often debated.
+Good documentation helps you, your current teammates, and those that might join your project
+in the future, to have a clear idea of the things they should know.
+It is basically the <em>“pay it forward”</em> principle, but for knowledge workers.</p>
+<ul class="simple">
+<li><p>Example generated documents can be found here: <a class="reference external" href="../examples/">./examples/</a></p></li>
+<li><p>A detailed guide on writing good documentation can be found here: <a class="reference external" href="https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/">writethedocs.org</a></p></li>
+<li><p>If you want to know more about writing documents in MarkDown, take a look at the <a class="reference external" href="https://guides.github.com/features/mastering-markdown/">GitHub Markdown Guides</a></p></li>
+<li><p>Details and tech stack in the description.</p></li>
+</ul>
+<p><strong>Quick links:</strong>   <a class="reference internal" href="../CONTRIBUTING/"><span class="doc">CONTRIBUTING</span></a> \ <a class="reference internal" href="../CHANGELOG/"><span class="doc">CHANGELOG</span></a> \ <a class="reference internal" href="../DCO/"><span class="doc">DCO</span></a> \ <a class="reference internal" href="../USAGE/"><span class="doc">USAGE</span></a></p>
+</div>
+<div class="section" id="releases">
+<h1>Releases<a class="headerlink" href="#releases" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="docker-images">
+<h2>Docker Images<a class="headerlink" href="#docker-images" title="Permalink to this headline">¶</a></h2>
+<p>Docker images are automatically pushed to DockerHub.
+Check out the latest version here: <a class="reference external" href="https://hub.docker.com/repository/docker/sddevelopmentbe/docgen/general">DockerHub Releases</a></p>
+</div>
+<div class="section" id="sources-and-examples">
+<h2>Sources and Examples<a class="headerlink" href="#sources-and-examples" title="Permalink to this headline">¶</a></h2>
+<p>The sources and examples used to create and test the container Releases
+can be found on our [github releases page](Releases are powered by tagging specific points of history in a repository. )</p>
+</div>
+</div>
+<div class="section" id="purpose">
+<h1>Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h1>
+<p>As software development professionals, we are often asked to write down documentation to detail what we did or how we did it. Most developers I know dislike using tools for “normal people” to  achieve this goal. We prefer to write our specs and documentation close to our code (same editor, or using terminal editors).</p>
+<p>This video is shareable set-up using open-source software, libraries, and templates to convert your Markdown files into fancy looking documents.</p>
+<div class="section" id="repository-structure">
+<h2>Repository structure<a class="headerlink" href="#repository-structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="../documents"><strong>documents:</strong></a> Contains some sample documents and images</p></li>
+<li><p><a class="reference external" href="../ops"><strong>ops:</strong></a> Dockerfiles and scripts to run the Stack</p></li>
+<li><p><a class="reference external" href="../ops/templates"><strong>templates:</strong></a> Collection of template files</p></li>
+<li><p><a class="reference external" href="../examples"><strong>examples:</strong></a> A set of showcase output files</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<p>A usage guide is provided in the project documentation folder:
+<a class="reference internal" href="../USAGE/"><span class="doc">USAGE.md</span></a></p>
+</div>
+<div class="section" id="tech-stack">
+<h1>Tech Stack<a class="headerlink" href="#tech-stack" title="Permalink to this headline">¶</a></h1>
+<p><strong>Generator</strong></p>
+<ul class="simple">
+<li><p>OS: Ubuntu</p></li>
+<li><p>Doc generation stack: pandoc, LaTeX (texLive) + shell script that contains the pandoc command</p></li>
+<li><p>Documentation content file: Markdown directory + YAML meta-data file</p></li>
+<li><p>FOSS templates and libraries</p></li>
+<li><p>Docker and docker-compose</p></li>
+</ul>
+<p><strong>Text Editors</strong></p>
+<ul class="simple">
+<li><p>Editor: <a class="reference external" href="https://neovim.io/">NeoVim</a> with some fancy plugins (unneeded, but I was playing with it recently)</p></li>
+</ul>
+</div>
+<div class="section" id="acknowledgements">
+<h1>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="foss-projects">
+<h2>FOSS Projects<a class="headerlink" href="#foss-projects" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Ubuntu dockerfile <a class="reference external" href="https://github.com/dockerfile/ubuntu">github</a></p></li>
+<li><p>Eisvogel Pandoc template <a class="reference external" href="https://github.com/Wandmalfarbe/pandoc-latex-template">github</a></p></li>
+<li><p>reveal.js <a class="reference external" href="https://github.com/hakimel/reveal.js">github</a></p></li>
+<li><p>pandoc <a class="reference external" href="https://github.com/jgm/pandoc">github</a></p></li>
+<li><p>TexLive <a class="reference external" href="https://tug.org/texlive/">website</a></p></li>
+<li><p>Prosegrinder Pandoc Templates <a class="reference external" href="https://github.com/prosegrinder/pandoc-templates">github</a></p></li>
+<li><p>PlantUML <a class="reference external" href="https://plantuml.com/">website</a></p></li>
+<li><p>PlantUML Server <a class="reference external" href="https://github.com/plantuml/plantuml-server">github</a></p></li>
+<li><p>Drakemor’s PlantUML stylsheets <a class="reference external" href="https://github.com/Drakemor/RedDress-PlantUML">github</a></p></li>
+<li><p>YuzuTech’s Kroki <a class="reference external" href="https://github.com/yuzutech/kroki">github</a></p></li>
+<li><p>Spinx Documentation Website Generator <a class="reference external" href="https://www.sphinx-doc.org">website</a></p></li>
+<li><p>PyPandoc <a class="reference external" href="https://github.com/bebraw/pypandoc">github</a></p></li>
+</ul>
+</div>
+<div class="section" id="contributors">
+<h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline">¶</a></h2>
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --><!-- prettier-ignore-start --><!-- markdownlint-disable --><!-- markdownlint-enable --><!-- prettier-ignore-end --><!-- ALL-CONTRIBUTORS-LIST:END --><p>This project follows the <a class="reference external" href="https://github.com/all-contributors/all-contributors">all-contributors</a> specification. Contributions of any kind welcome</p>
+</div>
+</div>
+<div class="section" id="change-history">
+<h1>Change History<a class="headerlink" href="#change-history" title="Permalink to this headline">¶</a></h1>
+<p>The full changelog can be found in: <a class="reference internal" href="../CHANGELOG/"><span class="doc">./CHANGELOG.md</span></a>.</p>
+</div>
+<div class="section" id="showcase-videos">
+<h1>Showcase videos<a class="headerlink" href="#showcase-videos" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=N_aVZHArSS0">Initial version</a></p></li>
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=oyBFv_9QFbk">First update</a></p></li>
+</ul>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../">DocGen Examples</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#releases">Releases</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#docker-images">Docker Images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sources-and-examples">Sources and Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#purpose">Purpose</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#repository-structure">Repository structure</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#tech-stack">Tech Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#acknowledgements">Acknowledgements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#foss-projects">FOSS Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contributors">Contributors</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#change-history">Change History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#showcase-videos">Showcase videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../USAGE/">DocGen Project User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CHANGELOG/">Keeping a Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CHANGELOG/#changes">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CONTRIBUTING/">How to contribute</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../">Documentation overview</a><ul>
+      <li>Previous: <a href="../" title="previous chapter">Welcome to DocGen documentation!</a></li>
+      <li>Next: <a href="../USAGE/" title="next chapter">DocGen Project User Guide</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search/" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Stijn Dejongh.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/README.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
