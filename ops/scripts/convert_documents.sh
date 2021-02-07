@@ -17,4 +17,5 @@ docker-compose -f ./ops/docker-compose.yml exec -T linux bash /root/docGen/scrip
 echo '> formal_document.md [sphinx website]'
 mkdir -p output/docsite
 docker-compose -f ./ops/docker-compose.yml exec -T linux sphinx-build -b dirhtml docs output/docsite
+docker cp output/docsite ops_webserver_1:/usr/local/apache2/htdocs/
 echo '-=[ DONE ]=-'
